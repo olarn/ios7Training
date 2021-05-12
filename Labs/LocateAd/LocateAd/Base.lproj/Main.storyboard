@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nX5-yt-B9r"/>
+                        <viewControllerLayoutGuide type="bottom" id="gMd-eW-3pI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zdt-3v-rdN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="585"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7q-TW-1c5">
+                                <rect key="frame" x="274" y="516" width="26" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="settings">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JLG-8A-TGF" kind="modal" identifier="segueMapType" modalTransitionStyle="partialCurl" id="rqj-kv-xO2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lve-4r-ZUh">
+                                <rect key="frame" x="20" y="512" width="35" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="bD4-bP-blR"/>
+                                </constraints>
+                                <state key="normal" image="location">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSelfLocationTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="v6L-ew-8q7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVe-Qh-Ju2">
+                                <rect key="frame" x="20" y="25" width="28" height="31"/>
+                                <state key="normal" image="action">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnActionTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JdX-sK-qD6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U7q-TW-1c5" secondAttribute="trailing" constant="20" symbolic="YES" id="4cQ-cO-yMO"/>
+                            <constraint firstAttribute="bottom" secondItem="U7q-TW-1c5" secondAttribute="bottom" constant="24" id="77Q-fU-V1S"/>
+                            <constraint firstAttribute="bottom" secondItem="Lve-4r-ZUh" secondAttribute="bottom" constant="20" symbolic="YES" id="8wi-ha-7Fk"/>
+                            <constraint firstItem="Lve-4r-ZUh" firstAttribute="centerY" secondItem="U7q-TW-1c5" secondAttribute="centerY" id="UOz-TX-FKm"/>
+                            <constraint firstItem="Lve-4r-ZUh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="diq-KV-FQ8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dNq-S9-t2e">
+                        <barButtonItem key="leftBarButtonItem" image="location" id="Ov4-nu-Yd4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="CF2-pp-qy2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="map" destination="Zdt-3v-rdN" id="gY9-52-cMx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="-456"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="EHi-BT-3oG">
+            <objects>
+                <viewController id="JLG-8A-TGF" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ff1-2H-hDY"/>
+                        <viewControllerLayoutGuide type="bottom" id="LTt-l0-zJ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VqT-Vh-sm7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HoP-xE-tRa">
+                                <rect key="frame" x="59" y="520" width="203" height="29"/>
+                                <segments>
+                                    <segment title="Map"/>
+                                    <segment title="Hybrid"/>
+                                    <segment title="Sattellite"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segMapTypeChanged:" destination="JLG-8A-TGF" eventType="valueChanged" id="WoZ-C2-K93"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HoP-xE-tRa" secondAttribute="bottom" constant="20" symbolic="YES" id="ez3-6l-OQP"/>
+                            <constraint firstItem="HoP-xE-tRa" firstAttribute="centerX" secondItem="VqT-Vh-sm7" secondAttribute="centerX" id="yYA-pL-MOv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DZo-R2-m7f"/>
+                    <connections>
+                        <outlet property="segmentMapType" destination="HoP-xE-tRa" id="erw-7y-ioY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSJ-tb-csT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="-456"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="action" width="28" height="22"/>
+        <image name="location" width="24" height="24"/>
+        <image name="settings" width="26" height="28"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

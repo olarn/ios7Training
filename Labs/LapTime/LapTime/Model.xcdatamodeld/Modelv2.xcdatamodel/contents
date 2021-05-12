@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Lap" representedClassName="Lap" syncable="YES">
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="race" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Race" inverseName="laps" inverseEntity="Race" syncable="YES"/>
+    </entity>
+    <entity name="Race" representedClassName="Race" syncable="YES">
+        <attribute name="raceDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="raceName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="laps" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lap" inverseName="race" inverseEntity="Lap" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Race" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Lap" positionX="-45" positionY="18" width="128" height="73"/>
+    </elements>
+</model>

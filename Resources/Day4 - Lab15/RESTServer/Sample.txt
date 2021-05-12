@@ -1,0 +1,14 @@
+G-ABLE Panjathanee Bd.
+lat=13.695964, long=100.537691
+
+CDG House
+lat=13.703073, long=100.543592
+
+Siam Paragon
+lat=13.746003, long=100.534848
+
+วัดพระแก้ว
+lat=13.751318, long=100.492576
+
+สนามบินสุวรรณภูมิ
+lat=13.694025, long=100.751495

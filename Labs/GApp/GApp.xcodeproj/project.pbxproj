@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375E4A11180A7FA80081AACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A10180A7FA80081AACC /* Foundation.framework */; };
+		375E4A13180A7FA80081AACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A12180A7FA80081AACC /* CoreGraphics.framework */; };
+		375E4A15180A7FA80081AACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A14180A7FA80081AACC /* UIKit.framework */; };
+		375E4A1B180A7FA80081AACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375E4A19180A7FA80081AACC /* InfoPlist.strings */; };
+		375E4A1D180A7FA80081AACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E4A1C180A7FA80081AACC /* main.m */; };
+		375E4A21180A7FA80081AACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E4A20180A7FA80081AACC /* AppDelegate.m */; };
+		375E4A24180A7FA80081AACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E4A22180A7FA80081AACC /* Main.storyboard */; };
+		375E4A27180A7FA80081AACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E4A26180A7FA80081AACC /* ViewController.m */; };
+		375E4A29180A7FA80081AACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E4A28180A7FA80081AACC /* Images.xcassets */; };
+		375E4A30180A7FA80081AACC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A2F180A7FA80081AACC /* XCTest.framework */; };
+		375E4A31180A7FA80081AACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A10180A7FA80081AACC /* Foundation.framework */; };
+		375E4A32180A7FA80081AACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E4A14180A7FA80081AACC /* UIKit.framework */; };
+		375E4A3A180A7FA80081AACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375E4A38180A7FA80081AACC /* InfoPlist.strings */; };
+		375E4A3C180A7FA80081AACC /* GAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E4A3B180A7FA80081AACC /* GAppTests.m */; };
+		375E4A48180A9E1D0081AACC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E4A46180A9E1D0081AACC /* LoginViewController.m */; };
+		375E4A49180A9E1D0081AACC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375E4A47180A9E1D0081AACC /* LoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375E4A33180A7FA80081AACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375E4A05180A7FA80081AACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375E4A0C180A7FA80081AACC;
+			remoteInfo = GApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375E4A0D180A7FA80081AACC /* GApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E4A10180A7FA80081AACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375E4A12180A7FA80081AACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		375E4A14180A7FA80081AACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		375E4A18180A7FA80081AACC /* GApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GApp-Info.plist"; sourceTree = "<group>"; };
+		375E4A1A180A7FA80081AACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375E4A1C180A7FA80081AACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		375E4A1E180A7FA80081AACC /* GApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GApp-Prefix.pch"; sourceTree = "<group>"; };
+		375E4A1F180A7FA80081AACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		375E4A20180A7FA80081AACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		375E4A23180A7FA80081AACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375E4A25180A7FA80081AACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		375E4A26180A7FA80081AACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		375E4A28180A7FA80081AACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		375E4A2E180A7FA80081AACC /* GAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E4A2F180A7FA80081AACC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		375E4A37180A7FA80081AACC /* GAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GAppTests-Info.plist"; sourceTree = "<group>"; };
+		375E4A39180A7FA80081AACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375E4A3B180A7FA80081AACC /* GAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppTests.m; sourceTree = "<group>"; };
+		375E4A45180A9E1D0081AACC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		375E4A46180A9E1D0081AACC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		375E4A47180A9E1D0081AACC /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375E4A0A180A7FA80081AACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A13180A7FA80081AACC /* CoreGraphics.framework in Frameworks */,
+				375E4A15180A7FA80081AACC /* UIKit.framework in Frameworks */,
+				375E4A11180A7FA80081AACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E4A2B180A7FA80081AACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A30180A7FA80081AACC /* XCTest.framework in Frameworks */,
+				375E4A32180A7FA80081AACC /* UIKit.framework in Frameworks */,
+				375E4A31180A7FA80081AACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375E4A04180A7FA80081AACC = {
+			isa = PBXGroup;
+			children = (
+				375E4A16180A7FA80081AACC /* GApp */,
+				375E4A35180A7FA80081AACC /* GAppTests */,
+				375E4A0F180A7FA80081AACC /* Frameworks */,
+				375E4A0E180A7FA80081AACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375E4A0E180A7FA80081AACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A0D180A7FA80081AACC /* GApp.app */,
+				375E4A2E180A7FA80081AACC /* GAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375E4A0F180A7FA80081AACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A10180A7FA80081AACC /* Foundation.framework */,
+				375E4A12180A7FA80081AACC /* CoreGraphics.framework */,
+				375E4A14180A7FA80081AACC /* UIKit.framework */,
+				375E4A2F180A7FA80081AACC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375E4A16180A7FA80081AACC /* GApp */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A1F180A7FA80081AACC /* AppDelegate.h */,
+				375E4A20180A7FA80081AACC /* AppDelegate.m */,
+				375E4A22180A7FA80081AACC /* Main.storyboard */,
+				375E4A25180A7FA80081AACC /* ViewController.h */,
+				375E4A26180A7FA80081AACC /* ViewController.m */,
+				375E4A28180A7FA80081AACC /* Images.xcassets */,
+				375E4A17180A7FA80081AACC /* Supporting Files */,
+				375E4A45180A9E1D0081AACC /* LoginViewController.h */,
+				375E4A46180A9E1D0081AACC /* LoginViewController.m */,
+				375E4A47180A9E1D0081AACC /* LoginViewController.xib */,
+			);
+			path = GApp;
+			sourceTree = "<group>";
+		};
+		375E4A17180A7FA80081AACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A18180A7FA80081AACC /* GApp-Info.plist */,
+				375E4A19180A7FA80081AACC /* InfoPlist.strings */,
+				375E4A1C180A7FA80081AACC /* main.m */,
+				375E4A1E180A7FA80081AACC /* GApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375E4A35180A7FA80081AACC /* GAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A3B180A7FA80081AACC /* GAppTests.m */,
+				375E4A36180A7FA80081AACC /* Supporting Files */,
+			);
+			path = GAppTests;
+			sourceTree = "<group>";
+		};
+		375E4A36180A7FA80081AACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375E4A37180A7FA80081AACC /* GAppTests-Info.plist */,
+				375E4A38180A7FA80081AACC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375E4A0C180A7FA80081AACC /* GApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E4A3F180A7FA80081AACC /* Build configuration list for PBXNativeTarget "GApp" */;
+			buildPhases = (
+				375E4A09180A7FA80081AACC /* Sources */,
+				375E4A0A180A7FA80081AACC /* Frameworks */,
+				375E4A0B180A7FA80081AACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GApp;
+			productName = GApp;
+			productReference = 375E4A0D180A7FA80081AACC /* GApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375E4A2D180A7FA80081AACC /* GAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E4A42180A7FA80081AACC /* Build configuration list for PBXNativeTarget "GAppTests" */;
+			buildPhases = (
+				375E4A2A180A7FA80081AACC /* Sources */,
+				375E4A2B180A7FA80081AACC /* Frameworks */,
+				375E4A2C180A7FA80081AACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375E4A34180A7FA80081AACC /* PBXTargetDependency */,
+			);
+			name = GAppTests;
+			productName = GAppTests;
+			productReference = 375E4A2E180A7FA80081AACC /* GAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375E4A05180A7FA80081AACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Olarn U.";
+				TargetAttributes = {
+					375E4A2D180A7FA80081AACC = {
+						TestTargetID = 375E4A0C180A7FA80081AACC;
+					};
+				};
+			};
+			buildConfigurationList = 375E4A08180A7FA80081AACC /* Build configuration list for PBXProject "GApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375E4A04180A7FA80081AACC;
+			productRefGroup = 375E4A0E180A7FA80081AACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375E4A0C180A7FA80081AACC /* GApp */,
+				375E4A2D180A7FA80081AACC /* GAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375E4A0B180A7FA80081AACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A49180A9E1D0081AACC /* LoginViewController.xib in Resources */,
+				375E4A29180A7FA80081AACC /* Images.xcassets in Resources */,
+				375E4A1B180A7FA80081AACC /* InfoPlist.strings in Resources */,
+				375E4A24180A7FA80081AACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E4A2C180A7FA80081AACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A3A180A7FA80081AACC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375E4A09180A7FA80081AACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A48180A9E1D0081AACC /* LoginViewController.m in Sources */,
+				375E4A27180A7FA80081AACC /* ViewController.m in Sources */,
+				375E4A21180A7FA80081AACC /* AppDelegate.m in Sources */,
+				375E4A1D180A7FA80081AACC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E4A2A180A7FA80081AACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E4A3C180A7FA80081AACC /* GAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375E4A34180A7FA80081AACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375E4A0C180A7FA80081AACC /* GApp */;
+			targetProxy = 375E4A33180A7FA80081AACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375E4A19180A7FA80081AACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E4A1A180A7FA80081AACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		375E4A22180A7FA80081AACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E4A23180A7FA80081AACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375E4A38180A7FA80081AACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E4A39180A7FA80081AACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375E4A3D180A7FA80081AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		375E4A3E180A7FA80081AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375E4A40180A7FA80081AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GApp/GApp-Prefix.pch";
+				INFOPLIST_FILE = "GApp/GApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		375E4A41180A7FA80081AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GApp/GApp-Prefix.pch";
+				INFOPLIST_FILE = "GApp/GApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		375E4A43180A7FA80081AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GApp.app/GApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GApp/GApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GAppTests/GAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		375E4A44180A7FA80081AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GApp.app/GApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GApp/GApp-Prefix.pch";
+				INFOPLIST_FILE = "GAppTests/GAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375E4A08180A7FA80081AACC /* Build configuration list for PBXProject "GApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E4A3D180A7FA80081AACC /* Debug */,
+				375E4A3E180A7FA80081AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E4A3F180A7FA80081AACC /* Build configuration list for PBXNativeTarget "GApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E4A40180A7FA80081AACC /* Debug */,
+				375E4A41180A7FA80081AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E4A42180A7FA80081AACC /* Build configuration list for PBXNativeTarget "GAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E4A43180A7FA80081AACC /* Debug */,
+				375E4A44180A7FA80081AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375E4A05180A7FA80081AACC /* Project object */;
+}

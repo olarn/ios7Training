@@ -1,0 +1,22 @@
+{
+	"customers":[
+	{
+		"firstname":"Steve",
+		"lastname":"Jobs",
+		"company":"Apple Inc.",
+		"image":"jobs.png"
+	},
+	{
+		"firstname":"Mark",
+		"lastname":"Zuckerberg",
+		"company":"Facebook",
+		"image":"zuck.png"
+	},
+	{
+		"firstname":"Bill",
+		"lastname":"Gates",
+		"company":"Microsoft Corp.",
+		"image":"gates.png"
+	}	
+	]
+}
